@@ -5,7 +5,7 @@ namespace GameTOP.Lib
     public class Jogador1 : iJogador
     {
         public readonly string _Nome;
-        public Jogador1(string nome)
+        public Jogador1(string nome = "RONALDO")
         {
             _Nome = nome;
         }
